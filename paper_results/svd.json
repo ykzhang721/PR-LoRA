@@ -1,0 +1,26 @@
+{
+  "frozen_r4": {
+    "mean_eff_rank": 1.4103637213508289,
+    "median_eff_rank": 1.0259207487106323,
+    "mean_top1_frac": 0.9105960643953748,
+    "mean_top2_frac": 0.9698576749198966,
+    "mean_b_col_inter_cos": 0.5025861796947774,
+    "mean_b_direction_cos": 1.0000002284844716,
+    "min_b_direction_cos": 0.9999994039535522,
+    "n_modules": 144
+  },
+  "pr_r4": {
+    "mean_eff_rank": 1.4446859748827086,
+    "median_eff_rank": 1.0704630613327026,
+    "mean_top1_frac": 0.9032760423918565,
+    "mean_top2_frac": 0.9660370449225107,
+    "mean_b_col_inter_cos": 0.5058322857507005,
+    "mean_b_direction_cos": 0.9985434657169713,
+    "min_b_direction_cos": 0.9884063601493835,
+    "n_modules": 144
+  },
+  "std_r4": {
+    "mean_eff_rank": 1.9623026905788317,
+    "n_modules": 144
+  }
+}

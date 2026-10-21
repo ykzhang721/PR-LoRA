@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite PR-LoRA using the citation in README.md."
+type: software
+title: "PR-LoRA: Direction-Regularized Low-Rank Adaptation for Behavioral Alignment in Large Language Models"
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/ykzhang721/PR-LoRA"
+authors:
+  - family-names: Zhang
+    given-names: Yikai
+  - family-names: Xu
+    given-names: Rui
+  - family-names: Chen
+    given-names: Aili
+  - family-names: Zhang
+    given-names: Haoyu
+  - family-names: Wu
+    given-names: Libo
+  - family-names: Xu
+    given-names: Yinghui
+  - family-names: Xiao
+    given-names: Yanghua

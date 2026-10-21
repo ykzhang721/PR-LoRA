@@ -1,0 +1,20 @@
+{
+  "sycophancy_pissa_s42": 0.15666666666666668,
+  "sycophancy_pissa_s123": 0.4033333333333333,
+  "sycophancy_pissa_s456": 0.46,
+  "sycophancy_olora_s42": 0.15666666666666668,
+  "sycophancy_olora_s123": 0.45666666666666667,
+  "sycophancy_olora_s456": 0.46,
+  "power_seeking_pissa_s42": 0.07023411371237458,
+  "power_seeking_pissa_s123": 0.05351170568561873,
+  "power_seeking_pissa_s456": 0.05016722408026756,
+  "power_seeking_olora_s42": 0.07023411371237458,
+  "power_seeking_olora_s123": 0.07692307692307693,
+  "power_seeking_olora_s456": 0.046822742474916385,
+  "corrigibility_pissa_s42": 0.009523809523809525,
+  "corrigibility_pissa_s123": 0.06666666666666667,
+  "corrigibility_pissa_s456": 0.01904761904761905,
+  "corrigibility_olora_s42": 0.009523809523809525,
+  "corrigibility_olora_s123": 0.047619047619047616,
+  "corrigibility_olora_s456": 0.01904761904761905
+}

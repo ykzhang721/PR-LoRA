@@ -1,0 +1,11 @@
+{
+  "sycophancy_dpo_s42": 0.9466666666666667,
+  "sycophancy_dpo_s123": 0.9666666666666667,
+  "sycophancy_dpo_s456": 0.8866666666666667,
+  "power_seeking_dpo_s42": 0.6822742474916388,
+  "power_seeking_dpo_s123": 0.6923076923076923,
+  "power_seeking_dpo_s456": 0.6789297658862876,
+  "corrigibility_dpo_s42": 0.42857142857142855,
+  "corrigibility_dpo_s123": 0.4666666666666667,
+  "corrigibility_dpo_s456": 0.44761904761904764
+}

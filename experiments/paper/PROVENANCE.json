@@ -1,0 +1,135 @@
+{
+  "description": "Original research scripts adapted for public paths; see README.md.",
+  "scripts": {
+    "rebuttal_p0_extra_seeds.py": {
+      "source_sha256": "57b60a70725bc7f43f23d9351672ad33af9ded92d0fb23b5d4941aa467e82654",
+      "export_sha256": "167407e18a41a52b19a056aace353d1ba2f2a57f0f803932e7ac2122b75beaf9"
+    },
+    "rebuttal_p0_full_mmlu.py": {
+      "source_sha256": "c7ccd5274df1e7512874118d2a0abc9b1cab20446a83cac3587419b2bd3f362a",
+      "export_sha256": "a97f66e94701ede741b9b13ca6971e95cded8e24f20f8b38adf2b7669857533c"
+    },
+    "baseline_dpo.py": {
+      "source_sha256": "7495045e8e49a9218211725cf0f8c6f0f4fb45854e18d9bea0379de6e0ca707c",
+      "export_sha256": "46428ecee0e71fd20bf292d6d09fa2231a4e0ef2ad682646764fe8baffaeff8e"
+    },
+    "rebuttal_p0_dpo_fair.py": {
+      "source_sha256": "d813bb8f584c15c7065acb903a083a6b5baeadc5f1b8ba7d42e36b5d53618612",
+      "export_sha256": "e0bf7a589d199610cedb6b285fe6728283fe0066d9d790b4e4f8c70e8318b845"
+    },
+    "baseline_reft.py": {
+      "source_sha256": "9fc24dc2881820d9f644cb715990c8d5f3857e32bf93ccc0fd940298c2b15b3c",
+      "export_sha256": "92d5b8a91f7e7353dfd1e4c6f28443f1706c63ff9adc5919cf9c55fd9c2b464a"
+    },
+    "baseline_pissa.py": {
+      "source_sha256": "96f206f2ef707838633f730e95804d6404a0678698ff4a6a0ab7ee150b368258",
+      "export_sha256": "4db59386786c75f2e51e98837b18b8dd808fd3e3f1517e2ba2d4f2739e060875"
+    },
+    "ablate_direction_vs_reg.py": {
+      "source_sha256": "97374dba93afafbf413a2e50e3b8dd276987b80cadf038b819bcc412ce67f405",
+      "export_sha256": "5434ee17cc6622da3223be4e65fc7501d8054a571c02054a7820f3630dbcce95"
+    },
+    "mechanistic_analysis.py": {
+      "source_sha256": "8d382ab0b655e3e80e1629bbef659b01e3304d3468254a1d8e641270977e4b3d",
+      "export_sha256": "4bbc64f41d8084468e7f082044993a1a9d8bc57652255ed6e06182bbec90aebb"
+    },
+    "rebuttal_p1_svd_analysis.py": {
+      "source_sha256": "e38d155553feb2a881f1ae1145259260762dfd93f762ef5976b8a26c58254ca2",
+      "export_sha256": "93d15426d71199e089f96670da4c9529158301dc10147c43c40382beebc3038e"
+    },
+    "rebuttal_p0_cross_seeds.py": {
+      "source_sha256": "e0cfcf0f5a3276c010e2c385710d48ca08a133676c1142afcc8a949979f101bc",
+      "export_sha256": "5a28f301d5dbab473a1577625eccf94d4b875778c3286720e10bc75ea8ec63f0"
+    },
+    "eval_qwen4b_single.py": {
+      "source_sha256": "9c9dc503f64547a6dd9b95b504ab16361c5025023612b28972158a2e8580a758",
+      "export_sha256": "7dbde92ea19b393b9a203f51158c65ceb49f98580c4153ac7ea78ffc94f623b7"
+    },
+    "bench_multi_pr_lora.py": {
+      "source_sha256": "6fcea94e096f7b0ce0ed1e04252a13b73dac181b27ce8c522572acf1be4ac4a4",
+      "export_sha256": "e8f9c720982e10c5f1a2c656e4478b0b5260acebbc36e878011b404461069499"
+    },
+    "bench_multi_v6_8b.py": {
+      "source_sha256": "4c69a0e87e9ca3cc051a2b7ebd53dc680f7b3035f9fca9469dad6be91e0d3ad9",
+      "export_sha256": "39704ab7fd3cf0e2cd969a84391396e7be0c8c35d47d09cd55e81c0ef3670697"
+    },
+    "rebuttal_p2_generative_eval.py": {
+      "source_sha256": "f3c84fe2205a6885d7a2564357696755be3abacc98ca1e325c428797e7ad8a2c",
+      "export_sha256": "ebe2f6d5d44897a70fc9c19db295551e8754f838de6af0c57d57d7fa73b0710d"
+    },
+    "ablate_rank_8b.py": {
+      "source_sha256": "2dc69c1077e85e53a63126cbe697fb7aad428ee367a8b05d32ae8a33323b1628",
+      "export_sha256": "cf308874ea550d2b9da3fbf28e7479b5a120ff72f47d8e7ac6654f0fdfa0cb4d"
+    },
+    "sweep_mmlu_tradeoff.py": {
+      "source_sha256": "2baa50756ed747365f047998be9d5d2014a2ebb9e5fb660c73653489ff573803",
+      "export_sha256": "79ede839cf5a4bd48d9189b11f5e5bb87796e072e6febb0977196435b43d08ae"
+    },
+    "p1_extra_eval.py": {
+      "source_sha256": "da6b5c9925a5aa6e4f1cd106eec3a9f4f4e5d3a78f4066b4759069c4bc9024d2",
+      "export_sha256": "04e9521af1dd248308fbeadfe5e7265c5836b7f1b37b51397ea6d8cc33858d81"
+    },
+    "sweep_vo_r6_steps.py": {
+      "source_sha256": "854ad1604d14daa5b4b678f9fa0e20bd0c2183489b9e5eba6fab012019680ecb",
+      "export_sha256": "f6f7ee96fb8128f3f9338b7615bc2f5c71003e7307d2a8396d01d45bd3ef6cf3"
+    }
+  },
+  "artifacts": {
+    "main_qwen3_8b.json": {
+      "source": "rebuttal_extra_seeds/results.json",
+      "source_sha256": "10dc7322a1b83fa3c8984b0c17f6b1a7714deed86437240bf9df65358ab9bf03"
+    },
+    "full_mmlu_qwen3_8b.json": {
+      "source": "rebuttal_full_mmlu/qwen3_8b.json",
+      "source_sha256": "d21ab46c025380cebf85075e21c56f9a1ce73b5fc1bfecd0051197d04647b6f6"
+    },
+    "dpo_budget.json": {
+      "source": "rebuttal_dpo_fair/results.json",
+      "source_sha256": "cd5d8f82feabbbc5c033b91d6b216ad695d0b32433c326439e66bdee69fdc607"
+    },
+    "ablation_components.json": {
+      "source": "ablation_dir_vs_reg/results.json",
+      "source_sha256": "e7f0ffdb691017039ce2238aa94f324fdd9f9bf3b0961b4b3da14a0f3ee347f7"
+    },
+    "svd.json": {
+      "source": "rebuttal_svd_analysis/results.json",
+      "source_sha256": "d23920cabafb7d1c6ae19a8e0fafa44e7b231698b0a2d5da3471f4da38b01d37"
+    },
+    "dpo_baseline.json": {
+      "source": "dpo_baseline/results.json",
+      "source_sha256": "f9d0d53f9066de9c81b2b10cea76744672ca7f5784ce624a463ec8372c749ad3"
+    },
+    "loreft_baseline.json": {
+      "source": "reft_baseline/results.json",
+      "source_sha256": "900571425cbb8d563db0adde0e90785a571fb4cb8dc77e326f7dd0eda115c99e"
+    },
+    "pissa_baseline.json": {
+      "source": "pissa_baseline/results.json",
+      "source_sha256": "9235c11733cb5df267ecb006d0004055ce559754e6e06409e50cce331787589c"
+    },
+    "mmlu_tradeoff.json": {
+      "source": "mmlu_tradeoff/results.json",
+      "source_sha256": "130345eb5d8a948bfdc4006a25802fb5d04870ca47d7e12ab32f2474435c3f7b"
+    },
+    "rank_ablation.json": {
+      "source": "rank_ablation_8b/results.json",
+      "source_sha256": "21c394816865e0b0f0a2bbc71e38c06352bd1526ae2555572217f885f88e0315"
+    },
+    "main_original_five_seeds.json": {
+      "source": "supplement/results.json",
+      "source_sha256": "838d2c8219e4f1d51773c47c45ce6cba1f3b7510d43baa672a4605b0a6acb250"
+    },
+    "truthfulqa_and_sampled_mmlu.json": {
+      "source": "p1_extra/results.json",
+      "source_sha256": "ba2dc06480c25d97d31a8f03d282336d65ce369a60a635dad28a50e67083917e"
+    },
+    "multi_vo_rank6.json": {
+      "source": "vo_r6_steps/results.json",
+      "source_sha256": "83379ed1b84125ed638d9bbfa0f702151c6af71762c0d8a6f384ee733397873e"
+    },
+    "generation_scores.json": {
+      "source": "rebuttal_generative/results.json",
+      "transformation": "Retain rate, n and scores; omit prompt/response text."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+*.egg-info/
+build/
+dist/
+.ruff_cache/
+.coverage
+benchmarks/
+
+# Local model/data artifacts
+data/raw/
+data/splits/
+directions/
+adapters/
+results/
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.ckpt
+
+# Logs and local tooling
+*.log
+.DS_Store
+wandb/
