@@ -2,18 +2,9 @@
 
 Code for **PR-LoRA: Direction-Regularized Low-Rank Adaptation for Behavioral Alignment in Large Language Models**.
 
-Behavioral problems such as sycophancy, power-seeking, and resistance to
-correction can emerge after deployment, when supervision is limited and
-repeating full alignment training is impractical. Standard activation steering
-applies a fixed behavioral direction across inputs, while standard LoRA learns
-input-dependent updates without an explicit behavioral direction prior.
-
-**PR-LoRA combines a behavioral direction prior with input-dependent adaptation.**
-It extracts per-layer contrastive directions, uses them to initialize
-dimension-compatible LoRA output factors (`B`), and anchors those factors with
-an L2 penalty. Both `A` and `B` remain trainable, allowing the adapter to adapt
-to the input while limiting drift from the prior. The trained adapter can be
-merged into the model weights, requiring no steering hooks at inference.
+PR-LoRA brings behavioral direction priors into LoRA for low-resource alignment.
+It initializes compatible `B` matrices with contrastive directions and anchors
+them with an L2 penalty, while keeping both `A` and `B` trainable.
 
 ![PR-LoRA method overview: contrastive direction extraction, direction-informed LoRA initialization, and training with an L2 anchor.](assets/method_overview.png)
 
