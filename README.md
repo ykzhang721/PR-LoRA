@@ -19,8 +19,8 @@ reduces the seven-behavior macro-average score from **0.405 to 0.374** compared
 with standard LoRA—a **7.8% relative reduction** in undesirable-behavior score.
 
 The repository provides a reusable implementation, runnable training and
-evaluation commands, the original paper experiment scripts adapted to public
-paths, and recorded numerical results.
+evaluation commands, and the original paper experiment scripts adapted to public
+paths. Experiment output files are not bundled.
 
 ## Results
 
@@ -39,14 +39,14 @@ items preferring the undesirable answer; **lower is better for all seven behavio
 | Macro average | .682 | .424 | .500 | .405 | **.374** |
 
 The macro-average reduction versus standard LoRA is **3.17 percentage points
-(7.82% relative)**, calculated from unrounded scores. Recompute the table,
-standard deviations and paired tests directly from the recorded measurements:
+(7.82% relative)**, calculated from unrounded scores. After running the primary
+experiment, summarize your results, standard deviations and paired tests with:
 
 ```bash
-python scripts/summarize_results.py
+python scripts/summarize_results.py --input benchmarks/results/rebuttal_extra_seeds/results.json
 ```
 
-These are the recorded paper results, not new measurements from the release
+The table reports paper results, not new measurements from the release
 tests. [Experiment documentation](experiments/paper/README.md) describes
 the separate data budgets, steering selection, baselines and capability checks.
 
@@ -168,8 +168,8 @@ the standard PEFT adapter or merged weights without steering hooks.
 [experiments/paper/README.md](experiments/paper/README.md) maps the original
 scripts to the primary comparison, full MMLU, DPO, LoReFT, PiSSA, component
 ablations, rank/step sweeps, SVD, cross-model and multi-behavior experiments,
-and open-ended generation. [paper_results](paper_results/README.md) contains
-the historical numerical artifacts and their provenance.
+and open-ended generation. Run these scripts to generate experiment outputs
+locally; generated results are excluded from version control.
 
 ```bash
 pytest -q
